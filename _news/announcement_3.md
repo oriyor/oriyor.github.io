@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2021-04-13 15:59:00-0400
 inline: true
-related_posts: false
+related_posts: true
 ---
-
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+ 
+Published our work introducing the MultiModalQA dataset for evaluating systems for multi-modal question answering (accepted to ICLR 2021).

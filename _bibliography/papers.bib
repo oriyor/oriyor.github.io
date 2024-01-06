@@ -3,82 +3,118 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@misc{yoran2023making,
+      title={Making Retrieval-Augmented Language Models Robust to Irrelevant Context},
+      author={Ori Yoran and Tomer Wolfson and Ori Ram and Jonathan Berant},
+      year={2023},
+      eprint={2310.01558},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+       selected={true}
+
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@misc{cohen2023evaluating,
+      title={Evaluating the Ripple Effects of Knowledge Editing in Language Models},
+      author={Roi Cohen and Eden Biran and Ori Yoran and Amir Globerson and Mor Geva},
+      year={2023},
+      eprint={2307.12976},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
+@inproceedings{yoran-etal-2023-answering,
+    title = "Answering Questions by Meta-Reasoning over Multiple Chains of Thought",
+    author = "Yoran, Ori  and
+      Wolfson, Tomer  and
+      Bogin, Ben  and
+      Katz, Uri  and
+      Deutch, Daniel  and
+      Berant, Jonathan",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.emnlp-main.364",
+    doi = "10.18653/v1/2023.emnlp-main.364",
+    pages = "5942--5966",
+    selected={true},
+    abstract = "Modern systems for multi-hop question answering (QA) typically break questions into a sequence of reasoning steps, termed chain-of-thought (CoT), before arriving at a final answer. Often, multiple chains are sampled and aggregated through a voting mechanism over the final answers, but the intermediate steps themselves are discarded. While such approaches improve performance, they do not consider the relations between intermediate steps across chains and do not provide a unified explanation for the predicted answer. We introduce Multi-Chain Reasoning (MCR), an approach which prompts large language models to meta-reason over multiple chains of thought, rather than aggregate their answers. MCR examines different reasoning chains, mixes information between them and selects the most relevant facts in generating an explanation and predicting the answer. MCR outperforms strong baselines on 7 multi-hop QA datasets. Moreover, our analysis reveals that MCR explanations exhibit high quality, enabling humans to verify its answers.",
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@misc{amouyal2023qampari,
+      title={QAMPARI: An Open-domain Question Answering Benchmark for Questions with Many Answers from Multiple Paragraphs},
+      author={Samuel Joseph Amouyal and Tomer Wolfson and Ohad Rubin and Ori Yoran and Jonathan Herzig and Jonathan Berant},
+      year={2023},
+      eprint={2205.12665},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{shaham-etal-2022-scrolls,
+    title = "{SCROLLS}: Standardized {C}ompa{R}ison Over Long Language Sequences",
+    author = "Shaham, Uri  and
+      Segal, Elad  and
+      Ivgi, Maor  and
+      Efrat, Avia  and
+      Yoran, Ori  and
+      Haviv, Adi  and
+      Gupta, Ankit  and
+      Xiong, Wenhan  and
+      Geva, Mor  and
+      Berant, Jonathan  and
+      Levy, Omer",
+    editor = "Goldberg, Yoav  and
+      Kozareva, Zornitsa  and
+      Zhang, Yue",
+    booktitle = "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.emnlp-main.823",
+    doi = "10.18653/v1/2022.emnlp-main.823",
+    pages = "12007--12021",
+    abstract = "NLP benchmarks have largely focused on short texts, such as sentences and paragraphs, even though long texts comprise a considerable amount of natural language in the wild. We introduce SCROLLS, a suite of tasks that require reasoning over long texts. We examine existing long-text datasets, and handpick ones where the text is naturally long, while prioritizing tasks that involve synthesizing information across the input. SCROLLS contains summarization, question answering, and natural language inference tasks, covering multiple domains, including literature, science, business, and entertainment. Initial baselines, including Longformer Encoder-Decoder, indicate that there is ample room for improvement on SCROLLS. We make all datasets available in a unified text-to-text format and host a live leaderboard to facilitate research on model architecture and pretraining methods.",
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{
+talmor2021commonsenseqa,
+title={Commonsense{QA} 2.0: Exposing the Limits of {AI} through Gamification},
+author={Alon Talmor and Ori Yoran and Ronan Le Bras and Chandra Bhagavatula and Yoav Goldberg and Yejin Choi and Jonathan Berant},
+booktitle={Thirty-fifth Conference on Neural Information Processing Systems Datasets and Benchmarks Track (Round 1)},
+year={2021},
+url={https://openreview.net/forum?id=qF7FlUT5dxa}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@inproceedings{yoran-etal-2022-turning,
+    title = "Turning Tables: Generating Examples from Semi-structured Tables for Endowing Language Models with Reasoning Skills",
+    author = "Yoran, Ori  and
+      Talmor, Alon  and
+      Berant, Jonathan",
+    editor = "Muresan, Smaranda  and
+      Nakov, Preslav  and
+      Villavicencio, Aline",
+    booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.acl-long.416",
+    doi = "10.18653/v1/2022.acl-long.416",
+    pages = "6016--6031",
+    abstract = "Models pre-trained with a language modeling objective possess ample world knowledge and language skills, but are known to struggle in tasks that require reasoning. In this work, we propose to leverage semi-structured tables, and automatically generate at scale question-paragraph pairs, where answering the question requires reasoning over multiple facts in the paragraph. We add a pre-training step over this synthetic data, which includes examples that require 16 different reasoning skills such as number comparison, conjunction, and fact composition. To improve data efficiency, we sample examples from reasoning skills where the model currently errs. We evaluate our approach on three reasoning-focused reading comprehension datasets, and show that our model, PReasM, substantially outperforms T5, a popular pre-trained encoder-decoder model. Moreover, sampling examples based on model errors leads to faster training and higher performance.",
+}
+
+@inproceedings{
+talmor2021multimodalqa,
+title={MultiModalQA: complex question answering over text, tables and images},
+author={Alon Talmor and Ori Yoran and Amnon Catav and Dan Lahav and Yizhong Wang and Akari Asai and Gabriel Ilharco and Hannaneh Hajishirzi and Jonathan Berant},
+booktitle={International Conference on Learning Representations},
+year={2021},
+url={https://openreview.net/forum?id=ee6W5UgQLa}
 }

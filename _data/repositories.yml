@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - oriyor
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - oriyor/reasoning-on-cots
+  - tau-nlp/scrolls
+  - allenai/csqa2
+  - allenai/multimodalqa
